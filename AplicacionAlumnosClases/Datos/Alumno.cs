@@ -58,5 +58,16 @@ namespace AplicacionAlumnosClases.Datos
         {
 
         }
+        public Alumno() : base()
+        {
+
+
+        }
+        public Alumno(string nombre, int nota, int edad) : base(nombre, edad)
+        {
+
+
+        }
+
     }
 }

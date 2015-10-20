@@ -19,6 +19,18 @@ namespace AplicacionAlumnosClases.Datos
         }
         public int Edad { get; set; }
 
+        //CONTRCUTORES
+        //se pone el constructor vacio para no cargarse el por defecto y poder instanciar objetos sin parametros
+        protected Persona()
+        {
+        }
+        protected Persona(string nombre, int edad)
+        {
+            Nombre = nombre;
+            Edad = edad;
+        }
+
+
         //METODOS
         public void Detalles()
         {

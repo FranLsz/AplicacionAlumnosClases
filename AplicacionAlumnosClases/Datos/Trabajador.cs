@@ -13,5 +13,9 @@ namespace AplicacionAlumnosClases.Datos
         {
 
         }
+
+        public Trabajador(string nombre, int edad) : base(nombre, edad)
+        {
+        }
     }
 }
