@@ -11,8 +11,6 @@ namespace AplicacionAlumnosClases
     {
         static void Main(string[] args)
         {
-
-
             Alumno al = new Alumno();
             //sin necesidad de constructor, una vez creado el objeto se mete el valor a sus propiedades
             Alumno al2 = new Alumno()
